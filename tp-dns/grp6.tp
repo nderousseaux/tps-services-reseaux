@@ -1,0 +1,15 @@
+; SOA
+
+@ IN SOA super.grp6.tp. admin.super.grp6.tp. (
+    2; Serial
+    30; Refresh
+    86400; Retry
+    2419200; Expire
+    604800); Negative Cache TTL
+
+; Serveur de nom
+IN NS super.grp6.tp.;
+
+; adresses IP des machines
+localhost IN A 127.0.0.1;
+super IN A 192.168.1.68;
