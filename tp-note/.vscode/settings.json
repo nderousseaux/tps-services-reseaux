@@ -1,9 +1,0 @@
-{
-	"files.associations": {
-		"*.py": "python",
-		"client.h": "c",
-		"socket.h": "c",
-		"types.h": "c",
-		"stdio.h": "c"
-	}
-}
